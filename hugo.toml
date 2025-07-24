@@ -1,0 +1,28 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = '我的博客'
+theme = "hugo-theme-reimu"
+
+[params]
+  author = "落弦尘"
+  authorAvatar = "327DA22503217DD76960462F8D6B9F16.jpg"
+  description = "如果能久别重逢,我希望你别来无恙."
+  socialIcons = [
+    { name = "github", url = "https://github.com/yourname" },
+    { name = "twitter", url = "https://twitter.com/yourname" }
+  ]
+
+  [params.comments]
+  enabled = true
+  type = "utterances"  # 支持 Disqus/Utterances/Giscus
+  repo = "yourname/your-repo"  # 对 Utterances/Giscus
+
+[menu]
+  [[menu.main]]
+    name = "首页"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "文章"
+    url = "/posts/"
+    weight = 2
