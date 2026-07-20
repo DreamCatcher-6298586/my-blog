@@ -6,7 +6,7 @@ theme = "hugo-theme-reimu"
 
 [params]
   author = "落弦尘"
-  authorAvatar = "/images/avatar.jpg"
+  authorAvatar = "https://my-blog-green-two-28.vercel.app/images/avatar.jpg"
   description = "如果能久别重逢，我希望你别来无恙。"
 
   socialIcons = [
