@@ -1,21 +1,23 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = '我的博客'
+baseURL = "https://my-blog-7muz496ss-2446906700-4131s-projects.vercel.app/" 
+languageCode = "zh-cn"
+hasCJKLanguage = true
+title = "落弦尘的博客"
 theme = "hugo-theme-reimu"
 
 [params]
   author = "落弦尘"
   authorAvatar = "327DA22503217DD76960462F8D6B9F16.jpg"
-  description = "如果能久别重逢,我希望你别来无恙."
+  description = "如果能久别重逢，我希望你别来无恙。"
+
+  # 社交媒体图标，把不需要的删掉，需要保留的改为你的真实链接
   socialIcons = [
-    { name = "github", url = "https://github.com/yourname" },
-    { name = "twitter", url = "https://twitter.com/yourname" }
+    { name = "github", url = "https://github.com/DreamCatcher-6298586" }
   ]
 
   [params.comments]
-  enabled = true
-  type = "utterances"  # 支持 Disqus/Utterances/Giscus
-  repo = "yourname/your-repo"  # 对 Utterances/Giscus
+    enabled = true
+    type = "utterances"   # 如果之后要换成 Giscus，把这里改为 "giscus"
+    repo = "DreamCatcher-6298586/my-blog"  # 启用评论前必须确保仓库公开，并安装对应 GitHub App
 
 [menu]
   [[menu.main]]
