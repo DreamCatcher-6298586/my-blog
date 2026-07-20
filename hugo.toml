@@ -49,6 +49,10 @@ theme = "hugo-theme-reimu"
         server = "tencent"
         type = "song"
 
+  # PJAX 无刷新加载 (切页面音乐不中断)
+  [params.pjax]
+    enable = true
+
 [menu]
   [[menu.main]]
     name = "首页"
