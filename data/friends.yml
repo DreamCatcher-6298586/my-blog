@@ -6,7 +6,7 @@
 #   image: 头像/图标 URL
 #
 # 示例（替换为你的真实友链）：
-# - name: 示例博客
-#   url: https://example.com/
-#   desc: 这是一个示例
-#   image: https://example.com/avatar.jpg
+ - name: wuhuan
+   url: https://chillax-c.github.io/
+   desc: 一只学Crypto 的元歌
+   image: /images/8070487681736D0AE44DB45B762CFDE7.jpg
