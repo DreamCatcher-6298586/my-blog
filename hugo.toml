@@ -28,3 +28,7 @@ theme = "hugo-theme-reimu"
     name = "文章"
     url = "/posts/"
     weight = 2
+  [[menu.main]]
+    name = "友链"
+    url = "/friend/"
+    weight = 3
