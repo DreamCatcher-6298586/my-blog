@@ -1,0 +1,10 @@
+﻿{
+  "build": {
+    "env": {
+      "HUGO_VERSION": "0.148.1"
+    }
+  },
+  "routes": [
+    { "src": "/", "dest": "/index.html" }
+  ]
+}
