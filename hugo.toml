@@ -1,4 +1,4 @@
-baseURL = "https://my-blog-omega-azure.vercel.app/"
+baseURL = "https://my-blog-omega-azure.vercel.app"
 languageCode = "zh-cn"
 hasCJKLanguage = true
 title = "落弦尘的博客"
@@ -6,7 +6,7 @@ theme = "hugo-theme-reimu"
 
 [params]
   author = "落弦尘"
-  authorAvatar = "327DA22503217DD76960462F8D6B9F16.jpg"
+  authorAvatar = "/images/avatar.jpg"
   description = "如果能久别重逢，我希望你别来无恙。"
 
   socialIcons = [
