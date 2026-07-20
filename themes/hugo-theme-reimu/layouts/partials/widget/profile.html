@@ -1,18 +1,12 @@
-<div class="widget-profile">
-  <div class="profile-avatar">
-    {{- $avatar := .Site.Params.avatar | default .Site.Params.authorAvatar | default "/images/avatar.jpg" -}}
-    <img src="{{ $avatar | relURL }}" alt="{{ .Site.Params.author }}" class="avatar-img">
-  </div>
-  <div class="profile-name">
-    <h3>{{ .Site.Params.author | default "作者" }}</h3>
-  </div>
-  <div class="profile-bio">
-    <p>{{ .Site.Params.description | default "" }}</p>
-  </div>
-  <div class="profile-social">
+<div class="widget-profile" style="text-align:center;padding:15px 0 10px;border-bottom:1px solid #eee;margin-bottom:15px;">
+  {{- $avatar := .Site.Params.avatar | default .Site.Params.authorAvatar | default "/images/avatar.jpg" -}}
+  <img src="{{ $avatar | relURL }}" alt="{{ .Site.Params.author }}" style="width:120px;height:120px;border-radius:50%;object-fit:cover;margin:0 auto 10px;display:block;">
+  <h3 style="margin:5px 0 0;font-size:18px;">{{ .Site.Params.author | default "作者" }}</h3>
+  <p style="font-size:14px;color:#888;margin:5px 0 10px;">{{ .Site.Params.description | default "" }}</p>
+  <div style="display:flex;justify-content:center;gap:12px;">
     {{- range .Site.Params.socialIcons -}}
-      <a href="{{ .url }}" target="_blank" rel="noopener">
-        <i class="icon-{{ .name }}"></i>
+      <a href="{{ .url }}" target="_blank" rel="noopener" style="text-decoration:none;color:var(--color-link);font-size:14px;">
+        {{- .name -}}
       </a>
     {{- end -}}
   </div>
