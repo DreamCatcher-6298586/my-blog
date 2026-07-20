@@ -8,6 +8,7 @@ theme = "hugo-theme-reimu"
   author = "落弦尘"
   authorAvatar = "327DA22503217DD76960462F8D6B9F16.jpg"
   description = "如果能久别重逢，我希望你别来无恙。"
+  vercel_analytics = true
 
   socialIcons = [
     { name = "github", url = "https://github.com/DreamCatcher-6298586" }
