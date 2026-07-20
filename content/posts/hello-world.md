@@ -3,6 +3,8 @@ title: 你好，世界
 date: 2026-07-20
 draft: false
 description: 这是我的第一篇博客文章
+categories: ["生活"]
+tags: ["博客", "Hugo"]
 ---
 
 欢迎来到落弦尘的博客！这是我的第一篇文章。

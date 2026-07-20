@@ -14,10 +14,40 @@ theme = "hugo-theme-reimu"
     { name = "github", url = "https://github.com/DreamCatcher-6298586" }
   ]
 
+  [params.social]
+    github = "https://github.com/DreamCatcher-6298586"
+
   [params.comments]
     enabled = true
     type = "utterances"
     repo = "DreamCatcher-6298586/my-blog"
+
+  # 首页分类卡片
+  [params.home_categories]
+    enable = true
+    [[params.home_categories.content]]
+      categories = "技术"
+    [[params.home_categories.content]]
+      categories = "生活"
+
+  # Live2D 看板娘
+  [params.live2d]
+    enable = true
+    position = "left"
+
+  # 音乐播放器 (QQ音乐)
+  [params.player]
+    [params.player.aplayer]
+      enable = true
+      [params.player.aplayer.options]
+        fixed = true
+        preload = "auto"
+    [params.player.meting]
+      enable = true
+      [params.player.meting.options]
+        id = "003WHs6a1qmOeG"
+        server = "tencent"
+        type = "song"
 
 [menu]
   [[menu.main]]
