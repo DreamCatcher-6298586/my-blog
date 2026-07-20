@@ -5,7 +5,6 @@ title = "落弦尘的博客"
 theme = "hugo-theme-reimu"
 
 [params]
-  widgets = ["profile"]
   author = "落弦尘"
   avatar = "/images/avatar.jpg"
   authorAvatar = "https://my-blog-green-two-28.vercel.app/images/avatar.jpg"
