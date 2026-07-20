@@ -1,0 +1,7 @@
+{{ define "main" }}
+  {{- $paginator := .Paginate (where .Pages "Section" "in" .Site.Params.mainSections) -}}
+  {{- range $k, $v := $paginator.Pages -}}
+    {{ partial "post.html" (dict "index" $k "ctx" . "page" $v) }}
+  {{- end -}}
+  {{ partial "pagination.html" . -}}
+{{- end -}}
