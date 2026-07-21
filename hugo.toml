@@ -9,6 +9,13 @@ theme = "hugo-theme-reimu"
   avatar = "/images/avatar.jpg"
   authorAvatar = "https://my-blog-green-two-28.vercel.app/images/avatar.jpg"
   description = "如果能久别重逢，我希望你别来无恙。"
+  mainSections = ["posts"]
+
+  menu = [
+    { name = "home", url = "" },
+    { name = "archives", url = "posts" },
+    { name = "friend", url = "friend" }
+  ]
 
   socialIcons = [
     { name = "github", url = "https://github.com/DreamCatcher-6298586" }
