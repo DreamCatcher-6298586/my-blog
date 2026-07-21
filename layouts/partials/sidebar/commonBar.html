@@ -1,4 +1,14 @@
 {{- $params := .Site.Params -}}
+<div class="sidebar-author">
+  <img
+    data-src="{{ .Site.Params.avatar | relURL }}"
+    data-sizes="auto"
+    alt="{{ .Site.Params.author }}"
+    class="lazyload"
+  />
+  <div class="sidebar-author-name">{{ .Site.Params.author }}</div>
+  <div class="sidebar-description">{{ .Site.Params.description }}</div>
+</div>
 <div class="sidebar-state">
   <div class="sidebar-state-article">
     <div>{{ i18n "sidebar.post" }}</div>
