@@ -23,6 +23,20 @@ theme = "hugo-theme-reimu"
   [params.social]
     github = "https://github.com/DreamCatcher-6298586"
 
+  # 评论系统 (giscus)
+  [params.comments]
+    enabled = true
+    type = "giscus"
+
+  [params.giscus]
+    enable = true
+    repo = "DreamCatcher-6298586/my-blog"
+    repoId = "R_kgDOTdtD5A"
+    category = "Announcements"
+    categoryId = "DIC_kwDOTdtD5M4DBpRC"
+    mapping = "pathname"
+    inputPosition = "bottom"
+
   # 首页分类卡片
   [params.home_categories]
     enable = false
