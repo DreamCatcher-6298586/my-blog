@@ -14,28 +14,18 @@ theme = "hugo-theme-reimu"
   menu = [
     { name = "home", url = "" },
     { name = "archives", url = "posts" },
-    { name = "friend", url = "friend" }
+    { name = "friend", url = "friend" },
+    { name = "about", url = "about" }
   ]
 
-  socialIcons = [
-    { name = "github", url = "https://github.com/DreamCatcher-6298586" }
-  ]
+  socialIcons = []
 
   [params.social]
     github = "https://github.com/DreamCatcher-6298586"
 
-  [params.comments]
-    enabled = true
-    type = "utterances"
-    repo = "DreamCatcher-6298586/my-blog"
-
   # 首页分类卡片
   [params.home_categories]
-    enable = true
-    [[params.home_categories.content]]
-      categories = "技术"
-    [[params.home_categories.content]]
-      categories = "生活"
+    enable = false
 
   # Live2D 看板娘
   [params.live2d]
@@ -56,7 +46,7 @@ theme = "hugo-theme-reimu"
         server = "tencent"
         type = "song"
 
-  # PJAX 无刷新加载 (切页面音乐不中断)
+  # PJAX 无刷新加载
   [params.pjax]
     enable = true
 
@@ -73,3 +63,11 @@ theme = "hugo-theme-reimu"
     name = "友链"
     url = "/friend/"
     weight = 3
+  [[menu.main]]
+    name = "关于"
+    url = "/about/"
+    weight = 4
+
+[services]
+  [services.rss]
+    limit = 10
